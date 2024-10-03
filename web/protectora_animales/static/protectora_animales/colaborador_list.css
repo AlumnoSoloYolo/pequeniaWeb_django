@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 49, 46);
+    width: 150px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+}
