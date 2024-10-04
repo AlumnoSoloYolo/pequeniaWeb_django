@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'protectora_animales/colaborador_list.css' %}">
+</head>
+
+<body>
+    <section>
+        {% for animal in animal_mostrar %}
+        <article>
+            <p>Nombre: {{animal.nombre}}</p>
+            <p>Cargo: {{animal.tipo}}</p>
+
+        </article>
+        {% endfor %}
+    </section>
+</body>
+
+</html>
